@@ -1,0 +1,13 @@
+.App{
+    height: 90vh;
+    width: 100vw; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    background-image: url("wallpaperflare.com_wallpaper.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home-pic{
+    opacity: 0.80;
+  }

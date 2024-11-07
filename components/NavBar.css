@@ -1,0 +1,64 @@
+
+.navbar{
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(72, 72, 81);
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 20px;
+    background-image: url("https://icons.iconarchive.com/icons/dtafalonso/win-10x/512/Weather-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}.logo-title{
+    height: 80px;
+    width: 100px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color:beige;
+}
+.nav-components{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    height: 70px;
+    width: 600px;
+}
+.list-items{
+    height: 70px;
+    width: 600px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 17px;
+    list-style-type: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar .nav-components .list-items .li a {
+    color: white; 
+    text-decoration: none; 
+  }
+  
+  .navbar .nav-components .list-items .li a.active {
+    color: rgb(96, 195, 238);
+    text-decoration: underline;
+  }
+  
+
+
