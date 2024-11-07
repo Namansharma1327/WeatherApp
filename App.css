@@ -1,0 +1,38 @@
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.App{
+  height: 90vh;
+  width: 100vw; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  background-image: url("wallpaperflare.com_wallpaper.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing-text{
+  height: 320px;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 40px;
+  color: rgb(245, 237, 151);
+  font-size: 35px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.hero-pic{
+  border-radius: 5px;
+}
+.child{
+  margin-top:70px;
+  margin-left: 180px;
+  
+
+}
